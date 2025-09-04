@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: belflower;
+  src: url(img-font/Belflower-Script.otf);
+}
+
+@font-face {
+  font-family: dm-sans;
+  src: url(img-font/DMSans-VariableFont_opsz\,wght.ttf) format("opentype");
+}
+
+body {
+  background-image: url(img-font/background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #D9C9B6;
+}
+
+.navbar {
+  font-weight: lighter;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  font-family: 'dm-sans';
+  font-weight: normal;
+  color: #ffffff00;
+}
+
+.cor-r {
+  color: #58251c;
+}
+
+.img-logo {
+  width: 190px;
+}
+
+.font-damara {
+  font-family: 'belflower';
+  font-size: 1.7em;
+}
+
+.bg-rosa {
+  background-color: #9b837258;
+}
+
+.section-1 {
+  margin: auto;
+  margin-top: 260px;
+  font-size: 2em;
+  color: #58251c;
+}
+
+.text-inicio {
+  text-align: justify;
+  font-family: 'dm-sans';
+  color: rgb(95, 62, 62);
+}
+
+.section-3 {
+  height: 400px;
+  margin-top: 200px;
+  background: linear-gradient(to right, #ab8d81 28%, transparent 28%);
+  font-family: 'dm-sans';
+}
+
+
+.section-03 {
+  height: 400px;
+  margin-top: 90px;
+  background: linear-gradient(to right, #ab8d81 28%, transparent 28%);
+  font-family: 'dm-sans';
+  padding-bottom: -40px;
+  padding-top: -10px;
+}
+
+.section-09 {
+  height: 400px;
+  margin-top: 90px;
+  background: linear-gradient(to right, #ab8d81 28%, transparent 28%);
+  font-family: 'dm-sans';
+}
+
+.img-meio {
+  width: 300px;
+  display: flex;
+  margin: auto;
+  padding: 30px;
+}
+
+.botao {
+  display: inline- block;
+  padding: 8px 20px;
+  border: 1px solid #b48d7c;
+  border-radius: 30px;
+  color: #b48d7c;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #b48d7c;
+  color: #fff;
+}
+
+.section-4 {
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+@media (max-width: 768px) {
+  .section-4 {
+    margin-top: 420px;
+  }
+}
+
+.txt-menor {
+  font-size: 0.7em;
+}
+
+.div-background {
+  background: linear-gradient(to right, #c0a193 28%, transparent 28%);
+  padding: 20px;
+  height: 312px;
+  font-family: 'dm-sans';
+  margin: auto;
+}
+
+.txt-fundo {
+  background-color: #D9C9B6;
+  padding: 10px;
+}
+
+.img-bebe {
+  width: 100%;
+  height: 315px;
+  margin: auto;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .img-bebe {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+
+.section-5 {
+  margin-bottom: 100px
+}
+
+.section-6 {
+  font-family: 'dm-sans';
+}
+
+.card {
+  background-color: transparent;
+  border: 0;
+}
+
+.img-cards {
+  width: 100%;
+  display: flex;
+  border-radius: 10px 10px 10px 0px;
+}
+
+@media(max-width: 765px) {
+  .img-cards-recons {
+    width: 100%;
+    display: flex;
+  }
+}
+
+.title-card {
+  color: #58251c;
+  font-weight: normal;
+  background-color: #916d5e;
+  width: 200px;
+  display: flex;
+  margin-top: -10px;
+  z-index: 1;
+  font-size: 1em;
+  padding: 3px;
+}
+
+.text-card {
+  margin-top: 30px;
+}
+
+p {
+  color: #58251c;
+}
+
+.section-7 {
+  margin-top: 160px;
+  background-color: #916d5e68;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: 'dm-sans';
+}
+
+.botao-1 {
+  display: inline-block;
+  padding: 8px 20px;
+  border: 1px solid #58251c;
+  border-radius: 30px;
+  color: #58251c;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.botao-1:hover {
+  background-color: #58251c;
+  color: #fff;
+}
+
+.div-button {
+  margin-top: -30px;
+  padding-bottom: 40px;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 100px auto auto auto;
+  font-family: 'dm-sans';
+}
+
+@media (max-width:768px) {
+  footer {
+    margin-top: 600px;
+  }
+}
+
+.a4 {
+  text-decoration: none;
+  color: #58251c;
+}
+
+.section-01 {
+  margin-top: 310px;
+}
+
+.h1-2 {
+  font-size: 1.7em;
+  font-family: 'belflower';
+}
+
+.video {
+  padding: 20px;
+  border: none;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .txt-trauma {
+    margin-top: 400px;
+  }
+}
+
+.text-resumo {
+  text-align: justify;
+  text-indent: 15px;
+}
+
+@media (max-width:768px) {
+  .section-10 {
+    margin-top: 460px;
+  }
+}
